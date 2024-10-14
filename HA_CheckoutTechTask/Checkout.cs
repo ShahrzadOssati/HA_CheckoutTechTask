@@ -19,6 +19,11 @@ namespace HA_CheckoutTechTask
 		public void Scan(string item)
 		{
 			//Add item to the list
+			//Note: there is no requirement in the problem state for handling
+			//      invalid SKUs and thhis method returning void would
+			//      necessitate adding exceptions to  alert the caller that an
+			//      invalid product with no price had been scanned. I have
+			//      opted to not implement this as this was not in the requirements
 			scannedItems.Add(item);
 		}
 

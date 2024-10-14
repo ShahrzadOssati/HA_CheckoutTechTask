@@ -175,6 +175,7 @@ namespace HA_CheckoutTechTask.Tests
 			int thePrice = checkout.GetTotalPrice();
 			Assert.AreEqual(thePrice, 240);
 		}
+
 		[TestMethod()]
 		public void TestIncrementalAOnly() 
 		{
