@@ -12,17 +12,6 @@ namespace HA_CheckoutTechTask.Tests
 	public class CheckoutTests
 	{
 		[TestMethod()]
-		public void ScanTest()
-		{
-			Assert.Fail();
-		}
-		[TestMethod()]
-		public void GetTotalPriceTest()
-		{
-			Assert.Fail();
-		}
-
-		[TestMethod()]
 		public void TestEmpty()
 		{
 			ICheckout checkout = new Checkout();
